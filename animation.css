@@ -1,5 +1,9 @@
 
 
+body {
+    background-color: yellow;
+} 
+
 @keyframes fly {
     0% {
         left: 0px; top:0px;
