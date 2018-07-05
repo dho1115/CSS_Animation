@@ -1,8 +1,10 @@
 
 
-$("h1").click(function() {
-    $(this).text("Aaaarrrggghhh!!! You got me!");
-    // $(this).removeClass("startFly");    
-    $(this).css("animation-play-state","paused");
+$("i").click(function() {
+    $(this).css("color", "red");      
+    $(this).css("animation-play-state","paused");    
+    $(this).css("color", "red") ? $("#msg").text("SQUASHED!!!") : $("span").text();
 });
+
+
 
