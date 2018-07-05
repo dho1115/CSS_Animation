@@ -43,6 +43,7 @@ body {
 
 #flexcontainer {
     display: flex;
+    flex-grow: 1;
     flex-direction: row;
     flex-wrap: wrap;
 } 
@@ -62,6 +63,6 @@ body {
     position: relative;
     animation-duration: 30s;
     animation-delay: 0s;
-    animation-iteration-count: 1;
+    animation-iteration-count: 3;
 } 
 
