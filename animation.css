@@ -10,6 +10,10 @@ body {
     height: 100%;   
 } 
 
+header {
+    text-align: center;
+} 
+
 @keyframes fly {
     0% {
         left: 0%; top:0%;
@@ -46,6 +50,10 @@ body {
     flex-grow: 1;
     flex-direction: row;
     flex-wrap: wrap;
+} 
+
+h5 {
+    text-align: center;
 } 
 
 .msg {
